@@ -55,7 +55,7 @@ You can navigate between the different pages using the links on the home page or
 
 ## Testing the image gen.ipynb 
 
-For the python jupyternotebook please just run the notebook oon collab. Feel free to mess around with the prompts and other parameter and dimension.
+For the python jupyternotebook please just run the notebook on google collab (https://colab.research.google.com/). Feel free to mess around with the prompts and other parameter and dimension.
 
 Contact:
 Chinmay Ghaskadbi: cag6228@psu.edu for question 
