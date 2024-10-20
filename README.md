@@ -53,6 +53,7 @@ You can navigate between the different pages using the links on the home page or
 - **Idea Prompt:** [http://localhost:3000/idea-prompt](http://localhost:3000/idea-prompt)
 - **Content Type:** [http://localhost:3000/content-type](http://localhost:3000/content-type)
 
+## Testing the image gen.ipynb 
 
 For the python jupyternotebook please just run the notebook oon collab. Feel free to mess around with the prompts and other parameter and dimension.
 
