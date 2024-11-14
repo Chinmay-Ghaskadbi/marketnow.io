@@ -7,7 +7,7 @@ from IPython.display import Audio, display
 API_KEY = "sk_4f61bb5b84536366c82662a5aa51b4b1ebd499ed186dda6e"  # Replace this with your actual API key
 
 # Function to generate speech using ElevenLabs API
-def generate_audio(text, voice_id="21m00Tcm4TlvDq8ikWAM", model_id="eleven_monolingual_v1"):
+def generate_audio(text, voice_id="N2lVS1w4EtoT3dr4eOWO", model_id="eleven_monolingual_v1"):
     """
     Generates speech from text using ElevenLabs API.
     
