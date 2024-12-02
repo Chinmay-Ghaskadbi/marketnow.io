@@ -5,12 +5,10 @@
 
 ### Install the following tools:
 1. **Node.js** (LTS version recommended): [Download Node.js](https://nodejs.org)
-2. **npm** or **yarn**: Comes with Node.js installation, or install Yarn using:
-   ```bash
-   npm install -g yarn
-   ```
-3. **Python** (version 3.8+): [Download Python](https://www.python.org/downloads/)
-4. **Git**: [Download Git](https://git-scm.com)
+2. **Python** (version 3.10+): [Download Python](https://www.python.org/downloads/)
+3. **Git**: [Download Git](https://git-scm.com)
+4. **Anaconda**: [Download Anaconda](https://www.anaconda.com/products/distribution)
+
 
 ---
 
@@ -53,19 +51,29 @@ Start the Next.js development server:
   ```
 
 
-The front-end will be available at [http://localhost:3000](http://localhost:3000).
-
+The front-end will be available at [http://localhost:3000](http://localhost:3000/home).
 ---
 
 ## Setting Up the Flask Back-end
 
-### 1. Install Python Dependencies
-Navigate to the `backend` directory (or wherever the Flask app is located) and install the required Python packages:
+### 1. Create an Anaconda Environment
+Create a new Anaconda environment with Python 3.10:
+```bash
+conda create -n flask_env python=3.10
+```
+
+### 2. Activate the Environment
+Activate the newly created environment:
+```bash
+conda activate marketnowenv
+```
+
+### 3. Install Python Dependencies
 ```bash
 pip install -r requirements.txt
 ```
 
-### 2. Run the Flask Server
+### 4. Run the Flask Server
 Start the Flask server:
 ```bash
 python main.py
@@ -74,6 +82,7 @@ python main.py
 By default, the server will be available at [http://localhost:5000](http://localhost:5000).
 
 ---
+
 
 ## Configuring Eleven Labs API
 
