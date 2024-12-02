@@ -56,7 +56,7 @@ The front-end will be available at [http://localhost:3000](http://localhost:3000
 ### 1. Create an Anaconda Environment
 Create a new Anaconda environment with Python 3.10:
 ```bash
-conda create -n flask_env python=3.10
+conda create -n marketnowenv python=3.10
 ```
 
 ### 2. Activate the Environment
@@ -96,7 +96,7 @@ By default, the server will be available at [http://localhost:5000](http://local
   Replace `<your-api-key>` with the actual API key.
 
 ### 3. Use the `get_voice()` Function
-The `get_voice()` function in the Flask project will use the `ELEVEN_LABS_API_KEY` from the environment variable to authenticate requests.
+The `get_voice()`  function in the in the main.py will use the `ELEVEN_LABS_API_KEY` from the environment variable to authenticate requests.
 
 ---
 
