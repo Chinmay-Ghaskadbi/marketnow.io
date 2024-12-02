@@ -1,5 +1,4 @@
-
----
+# Project Setup Guide
 
 ## Prerequisites
 
@@ -8,7 +7,6 @@
 2. **Python** (version 3.10+): [Download Python](https://www.python.org/downloads/)
 3. **Git**: [Download Git](https://git-scm.com)
 4. **Anaconda**: [Download Anaconda](https://www.anaconda.com/products/distribution)
-
 
 ---
 
@@ -35,13 +33,12 @@ Run one of the following commands to install all project dependencies:
   ```bash
   npm install
   ```
+  Additional dependencies:
   ```bash
-npm install @radix-ui/react-slot class-variance-authority clsx lucide-react tailwind-merge
-npm install jszip
-npm install react-spinners--legacy-peer-deps
-```
-
-
+  npm install @radix-ui/react-slot class-variance-authority clsx lucide-react tailwind-merge
+  npm install jszip
+  npm install react-spinners --legacy-peer-deps
+  ```
 
 ### 2. Run the Development Server
 Start the Next.js development server:
@@ -50,8 +47,8 @@ Start the Next.js development server:
   npm run dev
   ```
 
-
 The front-end will be available at [http://localhost:3000](http://localhost:3000/home).
+
 ---
 
 ## Setting Up the Flask Back-end
@@ -82,7 +79,6 @@ python main.py
 By default, the server will be available at [http://localhost:5000](http://localhost:5000).
 
 ---
-
 
 ## Configuring Eleven Labs API
 
@@ -121,7 +117,7 @@ The `get_voice()` function in the Flask project will use the `ELEVEN_LABS_API_KE
 ## Troubleshooting
 
 ### Next.js Issues:
-- **Module Not Found:** Ensure dependencies are installed using `npm install` or `yarn install`.
+- **Module Not Found:** Ensure dependencies are installed using `npm install`.
 - **Port Conflict:** If port `3000` is in use, specify a different port:
   ```bash
   PORT=4000 npm run dev
@@ -146,6 +142,7 @@ The `get_voice()` function in the Flask project will use the `ELEVEN_LABS_API_KE
 ---
 
 ## Contact and Disclaimer
-Contact: Chinmay Ghaskadbi: cag6228@psu.edu for question
+Contact: Chinmay Ghaskadbi: cag6228@psu.edu for questions.
 
-Disclaimer: This is an project for penn state's capstone class 🚀
+Disclaimer: This is a project for Penn State's capstone class 🚀
+
